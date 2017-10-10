@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
                   }
                   console.log('redirect to home');
                   
-                  this.router.navigateByUrl('/');
+                  this.router.navigateByUrl('/dashboard');
               },
               errResponse => {
                 switch(errResponse.status){
